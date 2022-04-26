@@ -1,0 +1,63 @@
+.a{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+}
+
+.a-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.a-right{
+    flex: 1;
+}
+
+.a-card.bg{
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    background-color: rgb(219, 227, 230);
+    border-radius: 50px;
+}
+
+.a-card{
+    width: 60%;
+    height: 70vh;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+}
+
+.a-img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.a-title{
+    font-weight: 500;
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+
+}
+
+.a-sub{
+    font-weight: bold;
+    margin: 20px 0px;
+    font-family: 'Source Sans 3', sans-serif;
+    color: rgb(30, 70, 71);
+    font-size: 20px;
+
+
+}
+
+.a-desc{
+    font-weight: 200;
+    font-size: 16px;
+}
